@@ -1,0 +1,94 @@
+body, h1, h2, p, ul, li, button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-color: #f0f0f0;
+}
+.header {
+    background-color: #121331;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.header h1 {
+    font-size: 24px;
+}
+.sendcontainer {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#messageInp {
+    width: 80%;
+    padding: 5px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 16px;
+}
+button {
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#submit-btn {
+    background-color: #007bff;
+    color: #fff;
+}
+#submit-btn:hover {
+    background-color: #0056b3;
+}
+#send-location {
+    background-color: #28a745;
+    color: #fff;
+}
+
+#send-location:hover {
+    background-color: #1f8e3e;
+}
+
+/* Style the chat messages */
+.chat-message {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    height: 400px;
+    width:97%;
+    overflow-y: scroll;
+}
+
+ul>li{
+    margin-top:10px;
+}
+/* Style for message.from */
+.message-from {
+    font-weight: bold;
+    color: blue;
+}
+
+/* Style for message.createdAt */
+.message-created-at {
+    font-style: italic;
+    color: green;
+}
+
+/* Style for message.text */
+.message-text {
+    color: black;
+}
+
+.message-location-link {
+    color: #007BFF; 
+    text-decoration: underline; 
+    margin-left: 5px; 
+}

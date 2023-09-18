@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+    <link href="./css/styles.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <h1>welcome to chat app</h1>
+        <lord-icon
+            src="https://cdn.lordicon.com/pkmkagva.json"
+            trigger="hover"
+            colors="primary:#121331"
+            style="width: 50px;
+            height: 50px;
+            display: block;
+            margin: auto;
+            border-radius:10px;
+            background-color:white;">
+        </lord-icon>
+    </div>
+    <div class="chat-message">
+        <ul id="message-list"></ul>
+    </div>
+   <form id="message-form" class="sendcontainer">
+        <input type="text" id="messageInp" name="message" placeholder="message">
+        <button type="submit" id="submit-btn">send</button>
+        <button type="button" id="send-location">Send Location</button>
+    </form>
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="./js/index.js"></script>
+</body>
+</html>
